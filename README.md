@@ -119,7 +119,7 @@ Next, I trained an MLP using one-hot encoding for categorical features. The trai
 **Observations:**
 - One-hot encoding slightly improves performance (**R² increased from 0.64 to 0.65** in 60 epochs).
 - Overfitting starts appearing after **60 epochs**.
-- The improvement from one-hot encoding is relatively small, possibly because the network structure and data preprocessing are not highly complex, limiting the impact of additional categorical feature representation.
+- The improvement from one-hot encoding is relatively small, possibly because the instance and the network structure are not highly complex, limiting the impact of additional categorical feature representation.
 
 ### 2.c Increasing Model Complexity
 I experimented with increasing network complexity by adding more layers and neurons.
@@ -156,7 +156,7 @@ I experimented with increasing network complexity by adding more layers and neur
 - Increasing depth **does not significantly improve performance**, and actually reduces generalization beyond **60 epochs**.
 
 #### Conclusion
-- One-hot encoding improves model performance slightly but does not drastically change results, possibly due to the relatively simple network architecture and preprocessing approach.
+- One-hot encoding improves model performance slightly but does not drastically change results, possibly due to the relatively simple instance and network architecture.
 - Increasing network complexity leads to earlier overfitting, suggesting **smaller architectures may be better for this dataset**.
 - The best balance of performance and generalization occurs **at 60 epochs** for 2.a and 2.b, and **around 28-50 epochs** for 2.c.
 
