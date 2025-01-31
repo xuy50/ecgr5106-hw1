@@ -24,11 +24,11 @@ I implemented a multi-layer perceptron (MLP) with three hidden layers and traine
 | 100    | 0.4842    | 0.4796 | 0.4764   |
 
 #### Training and Validation Loss & Accuracy
-![Training and Validation Loss & Accuracy (20 Epochs)](./images/1a_loss_accuracy_plot_20.png)
-![Training and Validation Loss & Accuracy (100 Epochs)](./images/1a_loss_accuracy_plot_100.png)
+![Training and Validation Loss & Accuracy (20 Epochs)](./images/p1/1a_loss_accuracy_plot_20.png)
+![Training and Validation Loss & Accuracy (100 Epochs)](./images/p1/1a_loss_accuracy_plot_100.png)
 
 #### Confusion Matrix (20 Epochs)
-![Confusion Matrix (20 Epochs)](./images/1a_confusion_matrix_20.png)
+![Confusion Matrix (20 Epochs)](./images/p1/1a_confusion_matrix_20.png)
 
 **Observations:**
 - The network shows slight overfitting after around 20 epochs.
@@ -55,16 +55,16 @@ I tested models with 4 and 5 hidden layers to analyze the effect of network dept
 | 5-Layer | 100   | 0.4621    | 0.4582 | 0.4565   |
 
 #### Training and Validation Loss & Accuracy (4-Layer)
-![Training and Validation Loss & Accuracy (4-Layer, 20 Epochs)](./images/1b_loss_accuracy_plot_4_layer_20.png)
-![Training and Validation Loss & Accuracy (4-Layer, 100 Epochs)](./images/1b_loss_accuracy_plot_4_layer_100.png)
+![Training and Validation Loss & Accuracy (4-Layer, 20 Epochs)](./images/p1/1b_loss_accuracy_plot_4_layer_20.png)
+![Training and Validation Loss & Accuracy (4-Layer, 100 Epochs)](./images/p1/1b_loss_accuracy_plot_4_layer_100.png)
 
 #### Training and Validation Loss & Accuracy (5-Layer)
-![Training and Validation Loss & Accuracy (5-Layer, 20 Epochs)](./images/1b_loss_accuracy_plot_5_layer_20.png)
-![Training and Validation Loss & Accuracy (5-Layer, 100 Epochs)](./images/1b_loss_accuracy_plot_5_layer_100.png)
+![Training and Validation Loss & Accuracy (5-Layer, 20 Epochs)](./images/p1/1b_loss_accuracy_plot_5_layer_20.png)
+![Training and Validation Loss & Accuracy (5-Layer, 100 Epochs)](./images/p1/1b_loss_accuracy_plot_5_layer_100.png)
 
 #### Confusion Matrices (20 Epochs)
-![Confusion Matrix (4-Layer, 20 Epochs)](./images/1b_confusion_matrix_4_layer_20.png)
-![Confusion Matrix (5-Layer, 20 Epochs)](./images/1b_confusion_matrix_5_layer_20.png)
+![Confusion Matrix (4-Layer, 20 Epochs)](./images/p1/1b_confusion_matrix_4_layer_20.png)
+![Confusion Matrix (5-Layer, 20 Epochs)](./images/p1/1b_confusion_matrix_5_layer_20.png)
 
 **Observations:**
 - Increasing depth slightly improves early training performance but leads to noticeable overfitting after 20 epochs.
