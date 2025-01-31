@@ -1,4 +1,4 @@
-# Homework 1 (100 Points)
+# ECGR-5106 Homework 1
 
 ## Student Information
 **Name:** Yang Xu  
