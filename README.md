@@ -31,7 +31,7 @@ I implemented a multi-layer perceptron (MLP) with three hidden layers and traine
 ![Confusion Matrix (20 Epochs)](./images/p1/1a_confusion_matrix_20.png)
 
 **Observations:**
-- The network shows slight overfitting after around 20 epochs.
+- The network shows slight overfitting after around 20 epochs, so I think it achieves full training within 20 epochs.
 - Increasing epochs leads to better training accuracy, but validation performance does not improve significantly.
 - The model achieves reasonable performance but struggles with generalization.
 
@@ -68,13 +68,13 @@ I tested models with 4 and 5 hidden layers to analyze the effect of network dept
 
 **Observations:**
 - Increasing depth slightly improves early training performance but leads to noticeable overfitting after 20 epochs.
-- The 5-layer model performs well on training data but generalizes poorly, with a significant increase in test loss.
-- Overfitting starts appearing in all models after approximately 20 epochs.
+- The 4-layer & 5-layer model performs well on training data but generalizes poorly, with a significant increase in test loss.
+- Overfitting starts appearing in all models after approximately 20 epochs, indicating that the network has already reached full training by this point.
 
 #### Conclusion
 - A 3-layer MLP provides a good balance between accuracy and generalization.
 - Increasing depth beyond 3 layers leads to diminishing returns and more overfitting.
-- Overfitting becomes noticeable after 20 epochs in all cases, suggesting that early stopping may be beneficial.
+- Overfitting becomes noticeable after 20 epochs in all cases, confirming that the network has already achieved full training and further training does not provide significant benefits.
 
 ---
 
